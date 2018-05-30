@@ -69,5 +69,8 @@ String csvFile = "src//main//resources//DisasterDeclarationsSummaries.csv";
         
     	return null;
     }
-
+  public String ping()
+  {
+	  return "pong";
+  }
 }
