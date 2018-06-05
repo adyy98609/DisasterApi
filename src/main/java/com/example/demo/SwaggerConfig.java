@@ -28,11 +28,11 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("JavaInUse API")
-				.description("JavaInUse API reference for developers")
+		return new ApiInfoBuilder().title("Disaster API")
+				.description("Disaster API for Fema Dataset")
 				.termsOfServiceUrl("http://javainuse.com")
-				.contact("javainuse@gmail.com").license("JavaInUse License")
-				.licenseUrl("javainuse@gmail.com").version("1.0").build();
+				.contact("ag58290@gmail.com").license("AdGupta License")
+				.licenseUrl("ag58290@gmail.com").version("1.0").build();
 	}
 
 }
